@@ -13,4 +13,5 @@ h1{
 }
 #menu_head{
 	font-family:"Brush Script MT";
+	grid-area:2/3/3/7;
 }
