@@ -1,3 +1,7 @@
+body{
+	background-color:wheat;
+}
+
 #grid{
     display:grid;
     grid-template-columns:repeat(8,1fr);
@@ -59,7 +63,7 @@ td{
 
 #dessert_list{
 	grid-area:5/5/8/7;
-	font-size:20px;
+	font-size:18px;
 }
 
 .entree_name{
@@ -69,9 +73,19 @@ td{
 #drinks{
 	grid-area:8/5/9/6;
 	font-size:40px;
+	margin-top:10px;
 }
+
+#drink_n2k{
+	grid-area:8/5/9/6;
+	margin-top:60px;
+	font-size:20px;
+}
+
 #drink_list{
 	grid-area:8/6/9/9;
+	font-size:20px;
+	margin-top:40px;
 }
 
 /* the index page */
