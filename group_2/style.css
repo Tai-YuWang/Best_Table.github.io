@@ -122,3 +122,17 @@ nav{
 .topnav a.active {
   background-color: #6a329f;
   color: white;
+}
+
+#hours {
+  grid-area: 4 / 7 / 5 / 9;
+}
+#times {
+  grid-area: 5 / 7 / 6 / 9;
+}
+#events {
+  grid-area: 6 / 7 / 7 / 9;
+}
+#days {
+  grid-area: 7 / 7 / 9 / 9;
+}
