@@ -136,3 +136,24 @@ nav{
 #days {
   grid-area: 7 / 7 / 9 / 9;
 }
+#flyer {
+  grid-area: 4 / 4 / 9 / 7;
+  height: 500px;
+  width: 400px;
+}
+#group {
+  grid-area: 4 / 7 / 5 / 9;
+}
+#staff {
+  grid-area: 4 / 1 / 9 / 5 ;
+}
+#chef {
+  grid-area: 3 / 1 / 9 / 5;
+  height: 200px;
+  width: 200px;
+}
+#students {
+  grid-area: 3 / 1 / 9 / 5;
+  height: 200px;
+  width: 200px;
+}
