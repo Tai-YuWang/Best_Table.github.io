@@ -138,6 +138,6 @@ nav{
 }
 #flyer {
   grid-area: 4 / 4 / 9 / 7;
-  height: 100px;
-  width: 50px;
+  height: 500px;
+  width: 400px;
 }
