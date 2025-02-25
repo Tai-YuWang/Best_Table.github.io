@@ -141,3 +141,16 @@ nav{
   height: 500px;
   width: 400px;
 }
+#team {
+  grid-area: 4 / 1 / 4 / 4;
+}
+#chef {
+  grid-area: 5 / 1 / 6 / 4;
+  height: 400px;
+  width: 300px;
+}
+#students {
+  grid-area: 6 / 1 / 7 / 4;
+  height: 400px;
+  width: 300px;
+}
