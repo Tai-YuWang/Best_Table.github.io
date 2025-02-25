@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Menu</title>
+    <title>Takeout</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="../js/init.js"></script>
 </head>
@@ -16,14 +16,33 @@
       <br>
       <label for="phone">Phone Number:</label>
       <input type="tel" id="phone" placeholder="Type Phone Number" name="phone">
+<br>
       <label for="name">Full Name:</label>
       <input type="text" id="name" placeholder="Type Full Name" name="name">
     </fieldset>
 	<fieldset>
 		<legend>Main Course</legend>
+		<label for="main">What Do you want for your main course?</label>
+		<select id="main" name="main">
+			<option value="Salom">Baked Salmon $11.50</option>
+			<option value="Shrimp">Bang Bang Shrimp Taco $12.50</option>
+			<option value="Cauliflower">Bang Bang Cauliflower Taco $10.50</option>
+			<option value="Cream">Creamy Tuscan Chicken $11.50</option>
+			<option value="Tender">Chicken Tenders $11.50</option>
+	</fieldset>
+	<fieldset>
+		<legend>Sides</legend>
+		<label for="sides">Pick 2 Sides</label>
+		<select id="sides" name="sides">
+			<option value=""></option>
+			<option value=""></option>
+			<option value=""></option>
+			<option value=""></option>
+			<option value=""></option>
+			<option value=""></option>
 	</fieldset>
   </form>
-<p><strong>Disclaimer:</strong>You can only get one main course per order. Sorry for the inconvenience<p>
+<p id="disclaimer"><strong>Disclaimer:</strong>You can only get one main course per order. Sorry for the inconvenience<p>
 </div>
 </body>
 </html>

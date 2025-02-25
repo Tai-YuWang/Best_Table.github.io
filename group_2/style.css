@@ -142,5 +142,9 @@ nav{
   width: 400px;
 }
 #takeout_form{
-	grid-area:3/2/9/3;
+	grid-area:3/2/9/4;
+}
+
+#disclaimer{
+	grid-area:8/1/9/2
 }
