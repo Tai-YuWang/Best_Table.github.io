@@ -141,8 +141,6 @@ nav{
   height: 500px;
   width: 400px;
 }
-#personal{
-	grid-area:2/2/3/3;
-	margin-left:100px;
-	margin-top:100px;
+#takeout_form{
+	grid-area:3/2/9/3;
 }
