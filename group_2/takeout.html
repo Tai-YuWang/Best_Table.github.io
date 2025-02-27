@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Menu</title>
+    <title>Takeout</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="../js/init.js"></script>
 </head>
 <body>
 <div id="grid">
-    <h1>Take Out Form</h1>
-	<form action="form_practice.html" method="POST">
-<fieldset>
-	<legend>Personal Information</legend>
-		<label for="email">Email:</label>
-		<input type="email" id="email" placeholder="Type email adress" name="email">
+	<div class="take_nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Reservation</a>
+        <a href="takeout.html">Take-out</a>
+        </div>
+  <h1>Take Out Form</h1>
+  <form action="form_practice.html" method="POST" id="takeout_form">
+    <fieldset>
+		<legend>Personal Information</legend>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Type email address" name="email">
+      <br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="Type Phone Number" name="phone">
 <br>
-		<label for="phone">Phone Number:</label>
-		<input type="tel" id="phone" placeholder="Type Phone Number" name="email">
-</fieldset>
-
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Type Full Name" name="name">
+    </fieldset>
+	<fieldset>
+		<legend>Main Course</legend>
+		<label for="main">What Do you want for your main course?</label>
+		<select id="main" name="main">
+			<option value="Salmon">Baked Salmon $11.50</option>
+			<option value="Shrimp">Bang Bang Shrimp Taco $12.50</option>
+			<option value="Cauliflower">Bang Bang Cauliflower Taco $10.50</option>
+			<option value="Cream">Creamy Tuscan Chicken $11.50</option>
+			<option value="Tender">Chicken Tenders $11.50</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Sides</legend>
+		<label for="take_side">Pick 2 Sides:</label>
+		<select id="take_side" name="take_side">
+			<option value="grilled">Grilled Asparagus</option>
+			<option value="Roasted">Roasted Mixed Vegetables</option>
+			<option value="Brussel">Brussel Sprouts</option>
+			<option value="Rice">Yellow</option>
+			<option value="Sweet">Baked Sweet Potatoes</option>
+			<option value="Garlic">Garlic and Rosemary Red Potatoes</option>
+		</select>
+	</fieldset>
+  </form>
+<p id="disclaimer"><strong>Disclaimer:</strong>You can only get one main course per order. Sorry for the inconvenience<p>
 </div>
 </body>
 </html>

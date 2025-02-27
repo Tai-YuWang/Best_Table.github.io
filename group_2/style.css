@@ -136,3 +136,66 @@ nav{
 #days {
   grid-area: 7 / 7 / 9 / 9;
 }
+#flyer {
+  grid-area: 4 / 4 / 9 / 7;
+  height: 500px;
+  width: 400px;
+}
+#takeout_form{
+	grid-area:3/4/9/6;
+}
+
+#disclaimer{
+	grid-area:8/1/9/2
+}
+.menu_nav {
+  overflow: hidden;
+  background-color: #333;
+  grid-area:3/1/4/4;
+  height:40px;
+}
+.menu_nav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu_nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu_nav a.active {
+  background-color: #6a329f;
+  color: white;
+}
+.take_nav {
+  overflow: hidden;
+  background-color: #333;
+  grid-area:3/1/4/4;
+  height:40px;
+}
+.take_nav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.take_nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu_nav a.active {
+  background-color: #6a329f;
+  color: white;
+}
+#take_side{
+	font-size:10px;
+}
