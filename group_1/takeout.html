@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang "en">
+    <head>
+<link rel="stylesheet" type="text/css" href="allstyle.css">
+        <title>Off The Pike</title>
+    </head>
+    <body>
+         <body>
+	<h1>Welcome to the Off The Pike takeouts!!</h1>
+	<form action="https://httpbin.org/post" method="post">
+	<label for="email">What is your email adress?</label><br>
+	<input type="email" name="email" id="email" required><br>
+	<label for="phone">What is your phone number?</label><br>
+	<input type="number" name="phone" id="phone" required><br>
+	<label for="boxes">How many to-go boxes will you need?</label><br>
+	<input type="number" name="boxes" id="boxes" required><br>
+	<p>
+	   What kind of dish would you like?
+	</p>
+	<label>
+	<input type="checkbox" name="dish" value="Bakedsalmon"> Baked Salmon ($11.50)
+       </label><br>
+       <label>
+           <input type="checkbox" name="dish" value="Bangbangshrimptaco"> Bang Bang Shrimp Taco ($12.50)
+       </label><br>
+       <label>
+           <input type="checkbox" name="dish" value="Bangbangcauliflowertacos"> Bang Bang Cauliflower Tacos ($10.50)
+       </label><br>
+       <label>
+           <input type="checkbox" name="dish" value="Creamytuscanchicken"> Creamy Tuscan Chicken ($11.50)
+       </label><br>
+       <label>
+           <input type="checkbox" name="dish" value="Chickentenders"> Chicken Tenders ($11.50)
+
+       </label<br>
+       <label>
+           <input type="checkbox" name="dish" value="None"> None
+
+       </label><br><br>
+	<p>What kind of soft drinks would you like? ($1.50)</p>
+	<label>
+		<input type="checkbox" name="soft drinks" value="Coke"> Coke
+	</label><br>
+	<label>
+               <input type="checkbox" name="soft drinks" value="Dietcoke"> Diet Coke
+       </label><br>
+	<label>
+               <input type="checkbox" name="soft drinks" value="Sprite"> Sprite
+       </label><br>
+	<label>
+               <input type="checkbox" name="soft drinks" value="Strawberryfreckled"> Strawberry Freckled
+       </label><br>
+	<label>
+               <input type="checkbox" name="soft drinks" value="None"> None
+       </label><br><br>
+       <p>Sides Options</p>
+        <label>
+                <input type="checkbox" name="sides" value="Grilledasparagus"> Grilled Asparagus
+        </label><br>
+        <label>
+               <input type="checkbox" name="sides" value="Roastedmixedvegetables"> Roasted Mixed Vegetables(Onions,Red and Green Peppers,and Cauliflower)
+       </label><br>
+        <label>
+               <input type="checkbox" name="sides" value="Brusselspoutswithcandiedbacon"> Brussel Spouts with Candied Bacon
+       </label><br>
+        <label>
+               <input type="checkbox" name="sides" value="Yellowrice"> Yellow Rice
+       </label><br>
+        <label>
+               <input type="checkbox" name="sides" value="Bakedsweetpotatoes"> Baked Sweet Potatoes
+       </label><br>
+        <label>
+               <input type="checkbox" name="sides" value="Garlic&rosemaryredpotatoes"> Garlic and Rosemary Red Potatoes
+       </label><br>
+        <label>
+               <input type="checkbox" name="sides" value="None"> None
+       </label><br><br>
+        <p>Desserts ($3.50)</p>
+        <label>
+                <input type="checkbox" name="desserts" value="Cookiesandcream"> Cookies and Cream (Fresh baked chocolate chip cookies topped with
+vanilla ice cream and chocolate drizzle)
+        </label><br>
+        <label>
+               <input type="checkbox" name="desserts" value="Strawberryshortcake"> Strawberry Shortcake (Layers of yellow cake, topped with fresh, juicy
+strawberries macerated in a hint of sugar.
+Finished with a cloud of freshly whipped cream)
+       </label><br>
+       <label>
+               <input type="checkbox" name="desserts" value="None"> None
+       </label><br><br>
+
+
+	<label for="payment">How will you be paying?</label><br>
+	<select id="payment" name="payment">
+		<option value="Cash">Cash</option>
+		<option value="Venmo">Venmo</option>
+		<option value="Check">Check</option>
+	</select><br><br>
+	<label for="comments">Do you have any other suggestions or comments?</label><br>
+	<input name="comments" id="comments"><br><br>
+	<input type="submit" name="submit">
+	</form>
+        <li><a href="../takeout.html">Home</a></li>
+    </body>
+</html>

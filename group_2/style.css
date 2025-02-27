@@ -1,3 +1,7 @@
+body{
+	background-color:wheat;
+}
+
 #grid{
     display:grid;
     grid-template-columns:repeat(8,1fr);
@@ -6,20 +10,129 @@
     text-align:center;
 }
 
-#grid2{
-    display:grid;
-    grid-template-columns:repeat(8,1fr);
-    grid-template-rows:repeat(8,1fr);
-    height:80vh;
-    text-align:center;
-}
-
 h1{
-	grid-area:1/1/2/9;
-	font-size:50px;
+	grid-area:1/3/4/7;
+	font-size:70px;
 	font-family:"Georgia";
 }
+
 #menu_head{
 	font-family:"Brush Script MT";
-	grid-area:2/3/3/7;
+	grid-area:2/4/4/6;
+	font-size:70px;
+}
+
+th{
+	font-size:40px;
+}
+
+td{
+	border:1px solid;
+}
+
+#main{
+	grid-area:4/1/9/5;
+}
+
+.dis{
+	border:0px;
+}
+
+#sides_head{
+	grid-area:4/7/6/9;
+	font-size:40px;
+	margin-top:20px;
+
+}
+
+#sides{
+	grid-area:5/7/9/9;
+	font-size:20px;
+
+}
+
+#choice{
+	font-size:20px;
+}
+
+#dessert_head{
+	grid-area:4/5/6/7;
+	font-size:40px;
+	margin-top:20px;
+}
+
+#dessert_list{
+	grid-area:5/5/8/7;
+	font-size:18px;
+}
+
+.entree_name{
+	font-size:18px;
+}
+
+#drinks{
+	grid-area:8/5/9/6;
+	font-size:40px;
+	margin-top:10px;
+}
+
+#drink_n2k{
+	grid-area:8/5/9/6;
+	margin-top:60px;
+	font-size:20px;
+}
+
+#drink_list{
+	grid-area:8/6/9/9;
+	font-size:20px;
+	margin-top:40px;
+}
+
+/* the index page */
+#title{
+	grid-area: 1 / 1 / 2 / 8;
+	font-size: 40px;
+	text-align: center;
+	font-family: "Gilam Black DEMO","Avenir Medium Condensed";
+}
+
+nav{
+	grid-area:2/1/3/9;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6a329f;
+  color: white;
+}
+
+#hours {
+  grid-area: 4 / 7 / 5 / 9;
+}
+#times {
+  grid-area: 5 / 7 / 6 / 9;
+}
+#events {
+  grid-area: 6 / 7 / 7 / 9;
+}
+#days {
+  grid-area: 7 / 7 / 9 / 9;
 }
