@@ -141,12 +141,23 @@ nav{
   height: 500px;
   width: 400px;
 }
+<<<<<<< HEAD
+#team {
+  grid-area: 4 / 1 / 4 / 4;
+=======
 #takeout_form{
 	grid-area:3/4/9/6;
+>>>>>>> 6fe3671cb85de9fc0d8bbfa777aad6d4f7bc9f83
 }
-
-#disclaimer{
-	grid-area:8/1/9/2
+#chef {
+  grid-area: 5 / 1 / 6 / 4;
+  height: 400px;
+  width: 300px;
+}
+#students {
+  grid-area: 6 / 1 / 7 / 4;
+  height: 400px;
+  width: 300px;
 }
 .menu_nav {
   overflow: hidden;
