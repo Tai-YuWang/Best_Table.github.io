@@ -7,10 +7,8 @@
         </head>
         <body>
 		<div id="grid">
-		<header>
-		<h1>Off the Pike Reservation</h1>
-		</header>
-		<nav>
+		<h1 id="reserve">Off the Pike Reservation</h1>
+		<nav id="reserve_nav">
                 <div class="topnav">
                 <a class="active" href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
@@ -18,6 +16,7 @@
                 <a href="takeout.html">Take-out</a>
                 </div>
        		</nav>
+		<nav id="reserve_form">
 		<form action="/submit-contact" method="post">
   		<label for="name">Name:</label>
  		<input type="text" id="name" name="name" required>
@@ -46,6 +45,7 @@
   
   <button type="submit">Send</button>
 </form>
+</nav>
         </body>
 </html>
 
