@@ -6,22 +6,19 @@
                 <script src="/../js/init.js"></script>
         </head>
         <body>
-		<div id="grid">
-		<header>
 		<h1>Off the Pike Reservation</h1>
-		</header>
-		<nav>
+		 <nav>
                 <div class="topnav">
                 <a class="active" href="index.html">Home</a>
                 <a href="menu.html">Menu</a>
                 <a href="reservation.html">Reservation</a>
                 <a href="takeout.html">Take-out</a>
                 </div>
-       		</nav>
+        </nav>
+
 		<form action="/submit-contact" method="post">
   		<label for="name">Name:</label>
  		<input type="text" id="name" name="name" required>
-		</div>
   <br>
   
  		<label for="email">Email:</label>
@@ -31,14 +28,14 @@
                 <input type="number" id="guest" placeholder="number of guest" name="guest">
   <br>
 		<p>Times:</p>
-                        <label for="4pm-5pm">4pm-5pm</label>
-                        <input type="radio" id="4pm-5pm" name="time" value="4pm-5pm" required>
-                        <label for="5pm-6pm">5pm-6pm</label>
-                        <input type="radio" id="5pm-6pm" name="time" value="5pm-6pm" required>
-                        <label for="6pm-7pm">6pm-7pm</label>
-                        <input type="radio" id="6pm-7pm" name="time" value="6pm-7pm" required>
-                        <label for="7pm-8pm">7pm-8pm</label>
-                        <input type="radio" id="7pm-8pm" name="time" value="7pm-8pm" required>
+                        <label for="pm4">4pm-5pm</label>
+                        <input type="radio" id="pm4" name="time" value="4pm-5pm" required>
+                        <label for="pm5">5pm-6pm</label>
+                        <input type="radio" id="pm5" name="time" value="5pm-6pm" required>
+                        <label for="pm6">6pm-7pm</label>
+                        <input type="radio" id="pm6" name="time" value="6pm-7pm" required>
+                        <label for="pm7">7pm-8pm</label>
+                        <input type="radio" id="pm7" name="time" value="7pm-8pm" required>
   <br>
 		<label for="comments">Any questions or comments?</label>
   		<textarea id="comments" name="comments"></textarea>
