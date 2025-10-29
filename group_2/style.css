@@ -171,3 +171,30 @@ nav{
 #reserve_nav {
 	grid-area: 4 / 5 / 5 / 8;
 }
+
+#menunavplace{
+	margin-top:100px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6a329f;
+  color: white;
+}
